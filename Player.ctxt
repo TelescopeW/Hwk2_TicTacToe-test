@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\ \n\ The\ Player\ class\ models\ a\ Tic-Tac-Toe\ player.\ \ When\ created,\ instances\n\ of\ this\ class\ are\ told\ whether\ they're\ playing\ X\ or\ O,\ and\ given\ an\n\ identifying\ string.\ \ The\ makeMove()\ method\ prints\ the\ current\ board,\n\ then\ asks\ for\ user\ input\ in\ selecting\ a\ move.\n\ \n\ @author\ Brad\ Richards\n\ @version\ 1.2\n
+comment1.params=symbol\ name
+comment1.target=Player(int,\ java.lang.String)
+comment1.text=\ \n\ The\ constructor\ takes\ a\ constant\ from\ the\ Board\ class\ describing\ \n\ whether\ this\ player\ is\ X\ or\ O\ (Board.X\ or\ Board.O),\ and\ the\ \n\ player's\ name.\n\ \n\ @param\ symbol\ \ One\ of\ the\ player\ constants\ from\ the\ Board\ class\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (Board.X\ or\ Board.O).\n\ @param\ name\ \ The\ player's\ name.\n
+comment2.params=symbol
+comment2.target=void\ setSymbol(int)
+comment2.text=\ \ \ \ \ \n\ This\ method\ takes\ a\ constant\ from\ the\ Board\ class\ describing\ \n\ whether\ this\ player\ should\ be\ playing\ X\ or\ O\ (Board.X\ or\ Board.O),\ \n\ and\ updates\ the\ Player\ state\ so\ that\ it's\ playing\ the\ specified\n\ symbol.\ \ (If\ the\ symbol\ isn't\ Board.X\ or\ Board.O,\ the\ Player's\ \n\ state\ is\ left\ unchanged.)\n\ \n\ @param\ symbol\ \ One\ of\ the\ player\ constants\ from\ the\ Board\ class\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (Board.X\ or\ Board.O).\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\ \n\ The\ toString()\ method\ just\ returns\ the\ player's\ name.\ \n\ @return\ A\ string\ containing\ the\ player's\ name.\ \n
+comment4.params=
+comment4.target=java.lang.String\ celebrate()
+comment4.text=\ \n\ This\ method\ is\ called\ when\ the\ player\ wins\ a\ game,\ and\ gives\ the\n\ player\ an\ opportunity\ to\ do\ some\ gloating.\ \ It\ returns\ a\ string\n\ that\ can\ be\ displayed,\ instead\ of\ printing\ something\ itself.\n\ \n\ @return\ \ A\ string\ describing\ the\ player's\ response\ to\ a\ win.\n
+comment5.params=
+comment5.target=java.lang.String\ mourn()
+comment5.text=\ \n\ This\ method\ is\ called\ if\ the\ player\ loses,\ and\ returns\ a\ string\n\ expressing\ the\ player's\ feelings\ about\ the\ loss\ in\ a\ mature\ and\n\ thoughtful\ way.\n\ \n\ @return\ \ A\ string\ describing\ the\ player's\ response\ to\ a\ loss.\n
+comment6.params=theBoard
+comment6.target=void\ makeMove(Board)
+comment6.text=\ \n\ makeMove\ is\ passed\ a\ game\ board,\ and\ modifies\ the\ board\ to\ reflect\n\ the\ player's\ next\ move.\ \ The\ board\ could\ be\ inspected\ when\ deciding\n\ where\ our\ next\ move\ should\ be,\ though\ this\ version\ of\ makeMove\ simply\n\ asks\ the\ user\ to\ specify\ a\ location\ on\ the\ board\ for\ the\ next\ move.\n\ \n\ @param\ theBoard\ \ The\ board\ on\ which\ we're\ to\ make\ a\ move.\n
+numComments=7

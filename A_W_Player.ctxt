@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=A_W_Player
+comment0.text=\n\ Write\ a\ description\ of\ class\ A_W_Player\ here.\n\n\ @Alex\ Wang\n\ @version1.1\n
+comment1.params=symbol\ name
+comment1.target=A_W_Player(int,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ A_W_Player\n
+comment2.params=theBoard
+comment2.target=void\ makeMove(Board)
+comment2.text=\n\ override\ method\ makeMove\ that\ uses\ minimax\ to\ obtain\ best\ move\n
+comment3.params=board\ playerSymbol
+comment3.target=int[]\ minimax(Board,\ int)
+comment3.text=\n\ this\ is\ the\ real\ king\ of\ the\ class,\ implemented\ minimax\ algorithm\ using\ \n\ recursion.\ \n
+comment4.params=input
+comment4.target=Board\ copyBoard(Board)
+numComments=5

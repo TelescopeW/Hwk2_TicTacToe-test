@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Tournament
+comment0.text=\n\n\ @Alex\ Wang\n\ @version1.1\n
+comment1.params=playerX\ playerO
+comment1.target=Player\ playGame(Player,\ Player)
+comment1.text=\n\ this\ method\ takes\ 2\ input\ players\ and\ gives\ them\ proper\ symbols\ using\ setSymbol()\n\ then\ the\ method\ uses\ while\ loop\ to\ let\ the\ 2\ players\ make\ move\ by\ turns,\ while\n\ also\ checking\ whether\ there\ is\ one\ of\ them\ wins\ or\ the\ game\ draws.\ \n
+comment2.params=playerX\ playerO
+comment2.target=Player\ playGame2(Player,\ Player)
+comment2.text=\n\ additional\ method\ that\ use\ a\ for\ loop\ to\ let\ players\ to\ move\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=\n\ main\ method\ that\ specifically\ uses\ a\ A_W_Player\ and\ a\ RandomPlayer\ to\ \n\ play\ game\n
+numComments=4

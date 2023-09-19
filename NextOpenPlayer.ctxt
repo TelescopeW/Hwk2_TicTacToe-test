@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=NextOpenPlayer
+comment1.params=symbol\ name
+comment1.target=NextOpenPlayer(int,\ java.lang.String)
+comment2.params=theBoard
+comment2.target=void\ makeMove(Board)
+comment2.text=\n\ this\ override\ makeMove\ method\ loop\ through\ the\ board\ and\ find\ the\ next\n\ open\ position\ and\ put\ a\ piece\ there\n
+numComments=3

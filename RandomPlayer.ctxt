@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=RandomPlayer
+comment1.params=symbol\ name
+comment1.target=RandomPlayer(int,\ java.lang.String)
+comment2.params=theBoard
+comment2.target=void\ makeMove(Board)
+comment2.text=\n\ override\ method\ that\ find\ a\ list\ of\ open\ cells\ and\ them\ randomly\ pick\n\ one\ to\ fill\ it\ with\ the\ current\ symbol\n
+numComments=3

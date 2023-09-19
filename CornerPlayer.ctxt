@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=CornerPlayer
+comment0.text=\n\ Write\ a\ description\ of\ class\ CornerPlayer\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=symbol\ name
+comment1.target=CornerPlayer(int,\ java.lang.String)
+comment2.params=board
+comment2.target=void\ makeMove(Board)
+numComments=3
